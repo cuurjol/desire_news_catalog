@@ -56,6 +56,7 @@ GEM
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
     jaro_winkler (1.5.3)
+    jwt (2.2.1)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -101,6 +102,10 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.2.0)
       loofah (~> 2.2, >= 2.2.2)
+    rails_jwt_auth (1.6.1)
+      bcrypt (~> 3.1)
+      jwt (~> 2.1)
+      rails (>= 5.0, < 6.1)
     railties (5.2.4)
       actionpack (= 5.2.4)
       activesupport (= 5.2.4)
@@ -145,12 +150,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bcrypt (~> 3.1.7)
   byebug
   listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
   puma (~> 3.11)
   rails (~> 5.2.4)
+  rails_jwt_auth
   rubocop
   spring
   spring-watcher-listen (~> 2.0.0)

@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  resource :registration, controller: 'rails_jwt_auth/registrations', only: [:create]
+  resource :session, controller: 'rails_jwt_auth/sessions', only: %i[create destroy]
 end
