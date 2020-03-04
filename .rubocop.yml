@@ -52,8 +52,7 @@ Layout/EmptyLinesAroundBlockBody:
 Metrics/BlockLength:
   Exclude:
     - 'db/schema.rb'
-    - 'spec/controllers/rooms_controller_spec.rb'
-    - 'spec/channels/appearance_online_user_channel_spec.rb'
+    - 'spec/requests/news_items_spec.rb'
 
 Style/ExpandPathArguments:
   Exclude:

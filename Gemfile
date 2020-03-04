@@ -12,6 +12,12 @@ gem 'rails_jwt_auth'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
+  gem 'factory_bot_rails'
+  gem 'faker'
+  gem 'json-schema'
+  gem 'pry-rails'
+  gem 'rails-controller-testing'
+  gem 'rspec-rails', '~> 3.8'
   gem 'rubocop'
 end
 

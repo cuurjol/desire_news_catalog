@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "id": { "type": "integer" },
+    "title": { "type": "string" },
+    "preview": { "type": "string" },
+    "description": { "type": "string" },
+    "status": { "type": "string" },
+    "user_id": { "type": "integer" },
+    "created_at": { "type": "string" },
+    "updated_at": { "type": "string" }
+  },
+  "required": ["id", "title", "preview", "description", "status", "user_id", "created_at", "updated_at"]
+}

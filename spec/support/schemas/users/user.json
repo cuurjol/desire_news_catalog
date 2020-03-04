@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "properties": {
+    "login": { "type": "string" },
+    "full_name": { "type": "string" },
+    "signature": { "type": "string" }
+  },
+  "required": ["login", "full_name", "signature"]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "properties": {
+    "message": {
+      "type": "string"
+    },
+    "news_item": { "$ref": "news_item.json" }
+  },
+  "required": ["message", "news_item"]
+}

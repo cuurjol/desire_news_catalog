@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "message": { "type": "string" },
+    "news_items": {
+      "type": "array",
+      "items": { "$ref": "users/user.json" }
+    }
+  },
+  "required": ["message", "news_items"]
+}
